@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador y Desencriptador</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Encriptador y Desencriptador</h1>
+    <textarea id="message" placeholder="Ingresa tu mensaje aquí"></textarea>
+    <div>
+      <button onclick="encrypt()">Encriptar</button>
+      <button onclick="decrypt()">Desencriptar</button>
+    </div>
+    <textarea id="output" placeholder="Mensaje encriptado o desencriptado aparecerá aquí" readonly></textarea>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
